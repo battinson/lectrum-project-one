@@ -1,10 +1,12 @@
-import React from 'react';
-import { Source } from './source';
+// Core
+import React from "react";
+// Routes
+import { Routes } from "./source/navigation";
 
 export const App = () => {
   return (
     <>
-      <Source />
+      <Routes />
     </>
-  )
+  );
 };
